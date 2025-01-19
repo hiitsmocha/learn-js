@@ -11,7 +11,52 @@
             This is the page where I learn about Objects!
         </p>
         <script>
-            
+            console.log(localStorage.getItem('message1'));
+            /* const product = {
+                name: 'socks',
+                price: 1090,
+            }
+            console.log(product);
+            console.log(product.name);
+            console.log(typeof product);
+            */
+           
+           /* const product2 = {
+            name: 'shirt',
+            fun: function function1() {
+                console.log('function inside object');
+            }
+           };
+           console.log(product2);
+           console.log(product2.name);
+           console.log(product2['name']);
+           console.log(product2['delivery-time']);
+
+           JSON.stringify(product2);
+           console.log(typeof JSON.stringify(product2));
+           console.log(JSON.parse(JSON.stringify(product2)));
+
+            */
+           localStorage.setItem('message1', 'hello');
+
+           const object4 = {
+            message: 'Good job',
+            price: 799
+           };
+           // let message = object4.message;
+           // Destructing --> an easier an faster way to assign references to properties in objects
+           let { message, price } = object4;
+           console.log(message);
+           console.log(price);
+           // Short hand property
+           const object5 = {
+            // mesage: message
+            message,
+            method: function function1() {
+                console.log('method');
+            }
+           }; 
+           console.log(object5);
         </script>
     </body>
 </html>
