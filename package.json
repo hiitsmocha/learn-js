@@ -1,0 +1,22 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "This repo tracks my JS learning progress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiitsmocha/learn-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiitsmocha/learn-js/issues"
+  },
+  "homepage": "https://github.com/hiitsmocha/learn-js#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
